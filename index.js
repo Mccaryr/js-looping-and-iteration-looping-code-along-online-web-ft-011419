@@ -5,3 +5,11 @@ function printBadges(employeeNames) {
   }
   return employeeNames
 }
+
+function tailsNeverFails() {
+  let heads = 0;
+  while (Math.random() >= 0.5){
+    heads++;
+  }
+  return "You got ${heads} in a row!";
+}
